@@ -1,0 +1,25 @@
+
+/* LAYOUT */
+aside.instagram-widget {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+figure.instagram-widget {
+    flex: 33.3333%;
+    padding: 0;
+    margin: 0;
+}
+figure.instagram-widget img {
+    display: block;
+    width: 90%;
+    padding: 0;    
+    margin: 5%;
+}
+/* STYLE */
+figure.instagram-widget img {
+    border-radius: .5vw;
+    box-shadow: 0 .5vw 2.5vw rgba(0, 0, 0, .2);
+    background-color: #efefef;
+}
